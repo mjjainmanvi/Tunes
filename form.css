@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+.content-section{
+    text-align: center;
+    /* background-color: gray; */
+   
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* width: 90%; */
+    
+}
+.heading{
+    font-size:1.3rem ;
+    padding:10px;
+    margin:10px;
+    margin-top: 0;
+
+}
+.account-details{
+    margin:10px;
+    width:40%;
+    
+    padding: 30px;
+
+    margin-top: 0;
+    border-right: 1px solid gray;
+   
+}
+.payment-details{
+    margin:10px;
+    width:40%;    
+   
+    margin-top: 0;
+    padding: 30px;
+   
+}
+
+.input-type{
+   
+    width:100%;
+    
+    border: 1px solid #999;
+    margin:5px;
+    
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+    color: #ffff;
+}
+.input-type-half{
+    width:50%;
+   
+    border: 1px solid #999;
+    margin:5px;
+   
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+    color: #ffff;
+}
+
+
+.submit-btn{
+    width:40%;
+    padding:10px 30px;
+    cursor: pointer;
+    background:linear-gradient(to right,#da34c1,#380976);
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    margin: auto;
+    margin-top: 0;
+    color: #ffff;
+}
+.submit-btn:hover{
+    transform: scale(1.1);
+}
+.label{
+    margin:10px;
+    font-size: 1rem;
+}
+#plan-name{
+    margin:10px;
+    /* background-color: transparent; */
+    font-size: 1rem;
+
+}

@@ -1,0 +1,262 @@
+section{
+margin:30px;
+}
+
+.upper-section{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.image-upper-section{
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+   
+
+}
+.image-upper-section:hover{
+    transform: scale(1.1);
+    
+}
+
+.image-upper-section img{
+    height: 100%;
+    width: 100%;
+}
+#latest-release,.popular-artist,.charts,.mood{
+    margin-left: 40px;
+    
+
+}
+#latest-release h2{
+    margin-bottom: 10px;
+}
+.latest-song-list{
+    display: flex;
+    flex-wrap: wrap;  
+    
+}
+section h2{
+    margin-left: 10px;
+}
+.latest-song-image{
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+
+}
+.latest-song{
+    display: flex;
+    font-size: 1rem;
+    width:40%;
+  position: relative;
+    margin-left:5px;
+    cursor:pointer;
+    margin:20px;
+    
+}
+.latest-song:hover{
+    border:2px solid white;
+    transform: scale(1.1);
+}
+.song-details{
+    margin:4px;
+
+}
+.song-menu{
+    display: flex;
+    flex-direction: row-reverse ;
+width:40%;
+position: absolute;
+top: 4px;
+
+
+}
+.song-title{
+    margin: 20px 0px 0px;
+
+}
+.song-date{
+    margin: 6px 0px 0px;
+}
+
+.latest-song-image img{
+    height: 100%;
+    width: 100%;
+}
+/* artist list */
+.artist-list{
+    display: flex;
+    
+}
+.artist{
+    margin:30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.artist:hover{
+    transform: scale(1.1);
+}
+.artist-image{
+    height: 100px;
+    width: 100px;
+}
+.artist-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.artist h5{
+    text-align: center;
+ margin: 5px;
+ 
+}
+/* mood-list */
+.mood{
+    margin-top: 20px;
+    
+}
+.moods{
+    position: relative;
+   
+}
+.mood-name{
+    position: absolute;
+    height: 120px;
+    width: 180px;
+    transition: all 0.5s ease-in-out;
+    top:0;
+    left:0px;
+    margin: 40px;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.mood-name h3{
+    margin: auto;
+}
+.mood-list{
+    display: flex;
+
+}
+.mood-image{
+    height: 120px;
+    width: 180px;
+    filter: blur(2px);
+    margin:40px;  
+    cursor:pointer;  
+    
+}
+.mood-image img{
+    height: 100%;
+    width: 100%;
+}
+.moods:hover{
+    transform: scale(1.1);
+}
+.songItemPlay{
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+
+/* chart */
+.charts-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chart{
+    background-color: rgb(34, 34, 68);
+    padding:20px;
+    margin:20px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.chart-image{
+    height: 200px;
+    width: 200px;
+}
+.chart-image img{
+    height: 100%;
+    width: 100%;
+}
+.chart-details{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+.chart-details i{
+    font-size: 50px;
+   
+}
+.chart:hover{
+    box-shadow: 0 0 20px #74ADC8;
+}
+.chart:hover .chart-details{
+    
+    
+    color:rgb(221, 11, 11);
+}
+.content-section{
+    position: relative;
+}
+.bottom{
+    position:absolute;
+    bottom: 0px; 
+    left:25%; 
+    /* iss se nhi ho rha?????neeche nhi aa rha usko 80%kra tb jaake ye hua */
+    /* width:100%; */
+    height: 18%;
+    background-color: rgb(47, 24, 45);
+    color: white;
+     
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    display: none;
+    
+    
+}
+#myProgressBar{
+    width: 65vw;
+   
+    cursor: pointer;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+.icons{
+    font-size: 30px;
+    margin:12px 0;
+    
+}
+.play-gif{
+    position: absolute;
+    left:5vw;
+    top:40px;
+    opacity:0;
+    transition: opacity 0.5s ease-in;
+}
+.song-info{
+    position: absolute;
+    left:10vw;
+    
+    text-align: center;
+}
+.botom-play{
+    display: none;
+    
+    }

@@ -1,0 +1,46 @@
+.charts-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chart{
+    background-color: rgb(34, 34, 68);
+    padding:20px;
+    margin:40px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.chart-image{
+    height: 200px;
+    width: 200px;
+}
+.chart-image img{
+    height: 100%;
+    width: 100%;
+}
+.chart-details{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+.chart-details i{
+    font-size: 50px;
+   
+}
+.chart:hover{
+    box-shadow: 0 0 20px #74ADC8;
+}
+.chart:hover .chart-details{
+    
+    
+    color:rgb(221, 11, 11);
+}
+.playlist-chart-name{
+    margin:10px;
+    font-size: 1.1rem;
+}

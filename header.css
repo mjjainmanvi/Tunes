@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* div{
+    border:2px solid white;
+} */
+body{
+    
+    color: #ffff;
+    font-family: sans-serif;
+}
+nav{
+    background:transparent;
+    flex-direction: column;
+    display: flex;
+   
+    /* isse wo upr kaise chle gye??????????????????
+    float left krne ke baad ab color black gayab ho rha iske bina */
+}
+
+#nav-left{
+    display: flex;
+    float: left;
+}
+#logo{
+    height:50px;
+    width:50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#T{
+    font-size: 70px;
+    
+}
+#website-name{
+ margin-left: 0;
+    margin-top:30px;
+    font-size: 30px;
+
+}
+#nav-right{
+    display: flex;
+    float: right;
+}
+#logo{
+    height:50px;
+    width:50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+    
+#notification{
+    font-size: 1.5rem;
+    margin:20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+#notification:hover{
+    color:red
+}
+
+
+#profile{
+    height: 50px;
+    width: 50px;
+    margin: 10px; 
+    cursor: pointer;
+   
+    }
+
+#profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; 
+    border: 2px solid white;
+   
+}
+#search-bar{
+    margin: 20px;
+    width:250px;
+    height:20px;
+    background-color: rgb(33, 33, 72);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+#search-bar input{
+    background: transparent;
+    border: 0;
+    overflow: none;
+}
+input:focus{
+    background:transparent;
+    outline: none;
+    color: #ffff;
+}
+input[placeholder]{
+    text-align: center;
+    font-size: 15px;
+    
+    
+
+}
+
+#mic{
+    margin-right: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.gradient-color{
+    background: -webkit-linear-gradient(#ed13cd, #380976);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* navbar */
+.nav-menu{
+    margin-top: 10px;
+    position: relative;
+    
+    height:450px;
+    width:18%;
+    border-right: 2px solid gray;
+    
+    /* background-color: aliceblue; */
+   
+   
+}
+.nav-menu ul {
+    width:200px;
+    margin:10px;
+    
+    padding: 0;
+    /* background-color: #f1f1f1; */
+}
+.nav li{
+    
+    list-style: none;
+    display: block;
+    margin-right:30px;    
+    padding:15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;  
+    width: 200px; 
+   
+    padding:8px 10px;
+}
+.nav li:hover{
+    border-bottom: 2px solid wheat;
+    background-color: bisque;
+    
+
+}
+.social-icons{
+       position: absolute;
+       bottom: 10px;
+       width:200px;
+       padding: 5px;
+       box-sizing: border-box;
+}
+
+.social-icons ul{
+    list-style: none;
+  
+     
+}
+.social-icons ul li{
+    display: inline-block;
+    margin:0px 10px;
+    font-size: 30px;
+    color:#931883 ;
+    /* box-shadow: 0 0 20px 0 #7f7f7f3d; */
+    cursor: pointer;
+    
+    
+}
+.social-icons ul li i:hover{
+    box-shadow: 0 0 5px 5px #4d4b4b3d; 
+    transform: scale(1.1);
+    
+}
+main{
+    display: flex;
+}
+.content-section{
+    /* background-color: #ffff; */
+    width:82%;
+    height:480px;
+    overflow: scroll;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}

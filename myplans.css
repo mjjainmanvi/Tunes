@@ -1,0 +1,67 @@
+.plan-list{
+    width:40%;
+    height:60%;
+    /* background-color: a; */
+    /* text-align: center; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+h4{
+    font-size: 1.5rem;
+    margin:10px;
+    /* to center  */
+    display: block;
+    text-align: center;
+}
+.plan-item{
+   
+    width:100%;
+    height: 100px;
+    background-color: rgb(231, 206, 228);
+    padding: 10px;
+    color:black;
+    border-radius: 5px;
+    margin:20px;
+    
+
+
+}
+
+.plan-details{
+    display: flex;
+    justify-content: space-between;
+
+}
+.days-left{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    border:2px solid rgb(101, 8, 61);
+    overflow: hidden;
+
+}
+
+.plan-item h5{
+    margin:10px 0px;
+    padding:10px;
+}
+
+
+.submit-btn{
+    cursor:pointer;
+    padding:10px 30px;
+    width:20%;
+    margin:auto;
+    background:linear-gradient(to right,#da34c1,#380976);
+margin:8px 30px;
+margin-left: 100px;
+text-align: center;
+border:none;
+border-radius: 5px;
+
+}
+.submit-btn:hover{
+    transform: scale(1.1);
+}

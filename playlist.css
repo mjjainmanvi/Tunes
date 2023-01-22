@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 75vh;
+    color:white;
+     
+     width:70%;
+     background-color: rgb(41, 40, 38);
+     margin: 20px auto;
+}
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+#myprogressbar{
+    width: 80vw;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+.icons{
+    font-size: 30px;
+    margin:12px 0;
+    
+}
+#playlist{
+    
+    /*  
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1; */
+   
+
+}
+
+.songs{
+   display: flex;
+   position: relative;
+   padding:5px;
+   align-items: center;
+   background-color: rgb(100, 61, 101);
+   border-radius: 10px;
+   cursor: pointer;
+   
+   /* 
+   ismei like wala include kyun nhi ho rha???????? */
+   /* background-color: aliceblue;     */
+}
+.songs span{
+    margin:10px;
+}
+.songs i{
+  position: absolute;
+  top:5px;
+  right: 5px;
+
+ margin-top: 20px;   
+   
+}
+.song-image{
+   height:40px;
+   width: 40px;
+   margin:12px;
+   box-shadow: 0 0 10px #74ADC8;
+}
+.play{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.song-image img{
+   height:100%;
+   width: 100%;
+}
